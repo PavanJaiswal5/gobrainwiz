@@ -3,7 +3,6 @@ import UserLayout from "./layouts/UserLayout"
 import Home from "./ui/Home"
 import AuthLayout from "./layouts/AuthLayout"
 import Login from "./ui/Login"
-import Register from "./ui/Register"
 import ForgotPassword from "./ui/ForgotPassword"
 import DashboardLayout from "./layouts/DashboardLayout"
 import Dashboard from "./ui/Dashboard"
@@ -32,7 +31,6 @@ function App() {
       </Route>
       <Route element={<AuthLayout />}>
         <Route path="login" element={<Login />} />
-        <Route path="register" element={<Register />} />
         <Route path="signup" element={<Signup />} />
         <Route path="forgot-password" element={<ForgotPassword />} />
       </Route>
