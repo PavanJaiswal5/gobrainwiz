@@ -16,3 +16,7 @@ export const resendOtp = (data) => {
 export const loginStudent = (data) => {
   return axios.post(`${API_URL}/StudentRegister/DirectStudentLogin`, data);
 };
+
+export const user =()=>{
+  console.log("user")
+}
