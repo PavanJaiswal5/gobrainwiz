@@ -1,4 +1,4 @@
-name: FTP Deploy
+name: FTP Deploy 1
 
 on:
   push:
