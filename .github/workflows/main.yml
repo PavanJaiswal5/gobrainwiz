@@ -3,7 +3,7 @@ name: FTP Deploy 1
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   ftp-deploy:
